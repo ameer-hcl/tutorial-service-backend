@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tutorial-service-backend
+  title: Tutorial Service # optional, human readable component name
+  description: API to access a repository of tutorials.
+  annotations:
+    github.com/project-slug: ameer-hcl/tutorial-service-backend
+spec:
+  type: service
+  owner: user:ameer-hcl
+  lifecycle: experimental
