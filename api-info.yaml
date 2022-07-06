@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: Tutorial Repository
+  description: An API that interacts with tutorials stored in a local database. 
+spec:
+  type: openapi
+  lifecycle: production
+  owner: ameer-hcl
+  definition:
+    $text: https://github.com/ameer-hcl/tutorial-service-backend/blob/main/api-docs.yaml
