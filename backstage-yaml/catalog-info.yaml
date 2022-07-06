@@ -10,3 +10,5 @@ spec:
   type: service
   owner: user:ameer-hcl
   lifecycle: experimental
+  providesApis:
+    - tutorial-repository
